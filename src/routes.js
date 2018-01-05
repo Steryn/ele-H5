@@ -1,10 +1,12 @@
-import HelloWorld from './components/HelloWorld'
+import msite from './components/msite'
+
+
 import content from './components/content'
 
 let routes = [{
   path: '/',
-  name: 'HelloWorld',
-  component: HelloWorld
+  name: 'msite',
+  component: msite
 }, {
   path: '/content',
   name: 'content',
